@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-winapi = "0.3.9"
+winapi = { version = "0.3", features = ["winnt", "sysinfoapi"] }
 winreg = "0.52.0"
